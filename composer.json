@@ -1,0 +1,31 @@
+{
+    "name": "jose/magento2-ai-visibility",
+    "description": "N/A",
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/framework": "*",
+        "magento/module-catalog": "*",
+        "magento/module-cms": "*",
+        "magento/module-store": "*",
+        "magento/module-config": "*",
+        "magento/module-backend": "*",
+        "magento/module-catalog-inventory": "*",
+        "magento/module-review": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+            ],
+        "psr-4": {
+            "Jose\\AiVisibility\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

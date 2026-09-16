@@ -1,0 +1,9 @@
+<?php
+/**
+ * @var \Jose\AiVisibility\Block\StructuredData $block
+ * @var \Magento\Framework\Escaper $escaper
+ */
+?>
+<?php if ($jsonLd = $block->getJsonLd()): ?>
+<script type="application/ld+json"><?= /* @noEscape */ $jsonLd ?></script>
+<?php endif; ?>
